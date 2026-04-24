@@ -1,0 +1,19 @@
+name: analytics_hub_amplitude
+description: Amplitude implementation of the analytics provider
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  amplitude_flutter: ^4.5.0
+  analytics_hub_core:
+    git:
+      url: https://github.com/lumpsoid/analytics_hub_core_dart
+      ref: f082937337f35cde7f811275b8b104ab752b790c
+
+dev_dependencies:
+  mocktail: ^1.0.5
+  test: ^1.31.0
+  very_good_analysis: ^10.2.0
